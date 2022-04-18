@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/home.css">
+    <title>Mv: Gestão Hospitalar</title>
+</head>
+
+<body class="container">
+    <header class="head">
+        <div class="itcontainer">
+            <img src="../img/print.png" class="img">
+            <select class="opt">
+                <option value="atend">ATENDIMENTO</option>
+                <option value="clas">CLASSIFICAÇÃO DE RISCO</option>
+                <option value="fat">FATURAMENTO-CONVENIO</option>
+                <option value="gbl">GLOBAL</option>
+                <option value="int">INTERNAÇÃO</option>
+                <option value="pep">NOVO PRONTUARIO ELETRONICO DO PACIENTE WEB</option>
+            </select>
+        </div>
+        <div class="btnwrapper">
+            <button type="button" class="headbtn">
+                <i class="fa-solid fa-gear"></i>
+            </button>
+            <button type="button" class="headbtn">
+                <i class="fa-solid fa-question"></i>
+            </button>
+            <button type="button" class="headbtn">
+                <i class="fa-solid fa-power-off"></i>
+            </button>
+        </div>
+    </header>
+    <aside class="menu">
+        <div class="content">
+            <input type="text" class="pesq">
+            <button type="button" class="btn">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+            <button type="button" class="btn">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+        </div>
+        <div class="fav">
+            <i class="fa-regular fa-star-half-stroke"></i>
+            <p class="txt">Favoritos</p>
+            <div class="btnangle">
+                <button type="button" class="btn">
+                    <i class="fa-solid fa-angles-left" onclick="hidden"></i>
+                </button>
+            </div>
+        </div>
+        <div class="submenu">
+            <div class="fav">
+                <i class="fa-regular fa-star-half-stroke"></i>
+                <p class="txt">Favoritos</p>
+            </div>
+            <div class="subtxt">
+                <p class="subtxt">Plano de Saude</p>
+            </div>
+            <div class="subicons">
+                <i class="fa-solid fa-stethoscope"></i>
+                <p class="subtxt">Atendimento</p>
+            </div>
+            <div class="subicons">
+                <i class="fa-solid fa-suitcase-medical"></i>
+                <p class="subtxt">Clinica e assistencial</p>
+            </div>
+            <div class="subicons">
+                <i class="fa-solid fa-microscope"></i>
+                <p class="subtxt">Diagnóstico e terapia</p>
+            </div>
+        </div>
+        <div class="undermenu">
+            <button type="button" class="underbtn">
+                <i class="fa-solid fa-dollar-sign"></i>
+            </button>
+            <button type="button" class="underbtn">
+                <i class="fa-solid fa-chart-line"></i>
+            </button>
+            <button type="button" class="underbtn">
+                <i class="fa-solid fa-truck"></i>
+            </button>
+            <button type="button" class="underbtn">
+                <i class="fa-solid fa-wrench"></i>
+            </button>
+            <button type="button" class="underbtn">
+                <i class="fa-solid fa-desktop"></i>
+            </button>
+        </div>
+
+    </aside>
+    <main class="main">
+        <iframe src="../html/main.html" title="Pag inicial" class="containermain"></iframe>
+    </main>
+    <footer class="footer">
+        <p>Conteudo teste</p>
+        <p>Conteudo teste</p>
+    </footer>
+
+<!-----------------------scripts da pagina--------------------------->
+    <script src="https://kit.fontawesome.com/106b45e407.js"></script>
+    <script src="../scripts/scripts.js"></script>
+</body>
+
+</html>

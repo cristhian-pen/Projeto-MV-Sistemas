@@ -1,0 +1,31 @@
+
+@media screen and (max-width:699px){
+    .text {
+        /*formatação da box */
+        width: 15%;
+        height: 3%;
+        position: absolute;
+        top: 29.5%;
+        left: 23%;
+    }
+    .img{
+        position: absolute;
+        top: 15%;
+        left: 50%;
+    }
+}
+@media screen and (min-width:2000px){
+    .text {
+        /*formatação da box */
+        width: 5%;
+        height: 2%;
+        position: absolute;
+        top: 35%;
+        left: 42%;
+    }
+    .img{
+        position: absolute;
+        top: 26%;
+        left: 45%;
+    }
+}

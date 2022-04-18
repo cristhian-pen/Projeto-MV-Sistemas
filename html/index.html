@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/style.css">
+    <link rel="stylesheet" href="../styles/responsve.css">
+    <title>SOUL MV CLONE</title>
+</head>
+    <body> 
+        <div>
+            <img src="../img/print.png" class="img">
+        </div>
+        <div class="text">
+            <p class="txt">Usuario e Senha</p>
+        </div>    
+        <div class="container">  
+            <div class="form">
+                <p class="texto">Entre com o seu Usuario e Senha</p>
+                <div method="POST" name="form" class="frm">
+                    <label class="lbl">Usuario:</label><input class="fdl" type="text" id="usr" placeholder="Digite seu usuario..."><br>
+                    <label class="lbl">Senha:  </label><input class="pwd" type="password" id="pwd" placeholder="Digite sua senha..."><br>
+                    <label class="lbl">Empresa:</label><select name="cmp" class="comp" id="comp">
+                        <option value="opt">Selecione...</option>
+                        <option value="hsm" id="hsm">HOSPITAL SANTA MONICA</option>
+                        <option value="moc" id="moc">HOSP. DAS CLINICAS MARIO RIBEIRO</option>
+                        <option value="fhc" id="fhc">FUNDACAO HILTON ROCHA</option>
+                        <option value="ivm" id="ivm">IVM - HSM</option>
+                    </select>
+                    <div class="btncontent">
+                        <button type="button" class="btn" onclick="login()">
+                            <i class="fa-solid fa-key"></i>
+                            Entrar
+                        </button>
+                    </div>    
+                </div>
+            </div>
+        </div>
+        
+        <script src="../scripts/scripts.js"></script>
+        <script src="../routes.js"></script>
+        <script src="https://kit.fontawesome.com/106b45e407.js"></script>
+    </body>
+    
+</html>
